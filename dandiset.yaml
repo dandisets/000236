@@ -10,8 +10,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Haesemeyer, Martin (2023) Thermoregulatory Responses Midbrain (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000236/draft
+citation: Haesemeyer, Martin; Balakrishnan, Kaarthik (2023) Thermoregulatory Responses
+  Midbrain (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 R01 NS 123887-01
   name: National Institutes of Health (NIH)
@@ -25,9 +25,16 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Balakrishnan, Kaarthik
+  roleName: []
+  schemaKey: Person
 dateCreated: '2022-04-16T22:43:22.902984+00:00'
+datePublished: '2023-03-16T17:01:52.520343+00:00'
 description: Imaging in the midbrain of nac -/-; Elavl3-H2B:GCaMP6s +/-; vglut2a-mCherry
   +/- larval zebrafish during random wave temperature stimulus presentation
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000236/draft
 identifier: DANDI:000236
@@ -38,6 +45,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000236/versions/draft/assets/
 name: Thermoregulatory Responses Midbrain
 protocol: []
+publishedBy:
+  endDate: '2023-03-16T17:01:52.520343+00:00'
+  id: urn:uuid:bd1bffab-6ebf-4f6d-886f-4e328048c726
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-03-16T17:01:52.520343+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:722060a7-cdf7-4c34-8ee6-87404e962257
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
